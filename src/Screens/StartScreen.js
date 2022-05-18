@@ -115,13 +115,13 @@ const StartScreen = () => {
         <H1>Step 1: Apostrophe requires both Node & MongoDB</H1>
         <P>ApostropheCMS relies entirely on Javascript utilizing Node and MongoDB so you will need Node and MongoDB installed properly in your local environment. To check if you have Node installed in your local environment run <Code>node -v</Code> from the terminal. To check if you have npm installed run <Code>npm -v</Code>. To check for mongo run <Code>mongod --version</Code></P>
         <Img src={systemCheckImage}/>
-        <P>Should Node be missing reference this document to install</P>
-        <P>Should MongoDB be missing reference this document to install</P>
+        <P>Should Node be missing reference <a href="https://nodejs.org/en/" target="_blank">Node Docs</a> to install</P>
+        <P>Should MongoDB be missing reference <a href="https://www.mongodb.com/docs/manual/administration/install-community/" target="_blank">Mongo Docs</a> to install</P>
       </Step>
 
       <Step>
         <H1>Step 2: Initiate MongoDB in your local environment</H1>
-        <P>ApostropheCMS will be using MongoDB to store its information so it needs to be running before creating a project. To create an instance of MongoDB in your local environment run the command <Code>mongo</Code>. If needed, follow the MongoDB documentation for more details.</P>
+        <P>ApostropheCMS will be using MongoDB to store its information so it needs to be running before creating a project. To create an instance of MongoDB in your local environment run the command <Code>mongo</Code>. If needed, follow the <a href="https://www.mongodb.com/docs/manual/administration/install-community/" target="_blank">Mongo Docs</a> for more details.</P>
       </Step>
 
       <Step>
@@ -139,16 +139,18 @@ const StartScreen = () => {
             <H2>With ApostropheCLI</H2>
             <Step>
               <H1>Step 4: Create A Project</H1>
-              <P>The CLI will take care of installing dependencies and will create your first user with the name "admin".</P>
+              <P>The CLI will take care of installing dependencies and will create your first user with the name "admin". If you want to change the project directory name, please do so. We will continue referring to "apos-app" for this project</P>
               <P>In the terminal of your local environment call the command <Code>apos create apos-app</Code></P>
-              <P>Once run, you will be prompted to provide a password. This password corresponds to the admin user that is automatically create. Enter any password and proceed to Finishing Touches.</P>
+              <P>Once run, you will be prompted to provide a password. This password corresponds to the admin user that is automatically create. Enter password and proceed to Finishing Touches.</P>
             </Step>
           </LeftColumnContainer>
           <RightColumnContainer>
             <H2>Without ApostropheCLI</H2>
             <Step>
               <H1>Step 4: Clone Starter Repo</H1>
+              <P>
               <Code>git clone https://github.com/apostrophecms/a3-boilerplate apos-app</Code>
+              </P>
               <P>If you want to change the project directory name, please do so. We will continue referring to "apos-app"</P>
             </Step>
             <Step>
@@ -178,7 +180,9 @@ const StartScreen = () => {
 
       <Step>
         <H1>Launch project</H1>   
-        <Code>npm run start</Code>
+        <P>
+          <Code>npm run start</Code>
+        </P>
         <P>This boilerplate project can now be used as a foundation to build more projects. See <Link to="/projects">more projects here </Link></P>
       </Step>
     </Container>
