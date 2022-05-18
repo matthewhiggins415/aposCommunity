@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/aposCommunity/static/css/main.31d6cfe0.css",
+    "main.js": "/aposCommunity/static/js/main.7aa30459.js",
+    "static/js/787.cda612ba.chunk.js": "/aposCommunity/static/js/787.cda612ba.chunk.js",
+    "static/media/hotels.jpg": "/aposCommunity/static/media/hotels.f2573f42f65df776b80d.jpg",
+    "static/media/demo.jpg": "/aposCommunity/static/media/demo.91b9bb0e0c55cfc2bdec.jpg",
+    "static/media/analytics.jpg": "/aposCommunity/static/media/analytics.2f41abc3d91268006fcd.jpg",
+    "static/media/permissions.jpg": "/aposCommunity/static/media/permissions.b0293c526e7f034b6a8b.jpg",
+    "static/media/multisite.jpg": "/aposCommunity/static/media/multisite.e51d231e56bd5d29a95e.jpg",
+    "static/media/form.jpg": "/aposCommunity/static/media/form.f024ec5d58a61790b070.jpg",
+    "static/media/systemChecks.png": "/aposCommunity/static/media/systemChecks.1c8781d200b1df074ba3.png",
+    "static/media/finishingTouch.png": "/aposCommunity/static/media/finishingTouch.fcb233cbf00a5bc8756a.png",
+    "static/media/shortname.png": "/aposCommunity/static/media/shortname.eeb323dd155f8d7b188b.png",
+    "index.html": "/aposCommunity/index.html",
+    "main.7aa30459.js.map": "/aposCommunity/static/js/main.7aa30459.js.map",
+    "787.cda612ba.chunk.js.map": "/aposCommunity/static/js/787.cda612ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.7aa30459.js"
+  ]
+}
